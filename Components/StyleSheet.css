@@ -6,8 +6,12 @@
 body {
   height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+header {
+  text-align: center;
+  padding-top: ;
 }
 h1 {
   font-family: sans-serif;
