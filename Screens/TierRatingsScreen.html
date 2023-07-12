@@ -7,8 +7,25 @@
     <link rel="stylesheet" href="../Components/StyleSheet.css" />
     <title>JavaScript Fundamentals – Part 1</title>
   </head>
+  <header>
+    <h1>Marveling At The Movies</h1>
+  </header>
   <body>
-    <h1>JavaScript Fundamentals – Part 1</h1>
-    <script src="script.js"></script>
+    <h2>Tier Lists and Rankings</h2>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="HomeScreen.html">Home</a>
+      <a href="AboutScreen.html">About</a>
+      <a href="AllReviewsScreen.html">All Reviews</a>
+      <a href="TierRatingsScreen.html">Tier Lists and Ratings</a>
+      <a href="ContactUsScreen.html">Contact Us</a>
+    </div>
+
+    <span style="font-size: 50px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span
+    >
+    <script src="TierRatingsScreen.js"></script>
   </body>
 </html>
